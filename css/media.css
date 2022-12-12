@@ -1,0 +1,93 @@
+@media(max-width:992px)
+{
+    .site-wrap .container {
+        max-width: 960px;
+    }
+    .site-footer .container{
+        max-width: 960px;
+    }
+}
+@media(max-width:768px)
+
+{
+
+    .site-wrap .container{
+    max-width: 720px;
+    }
+.nav-bar .container .main{
+    padding: 1.5rem 0;
+}
+
+.nav-bar .container .main .mobile-navbar::before{
+    display: block;
+}
+.nav-bar .container .main .navbar ul {
+    display: none;
+}
+
+.site-section .container .review-box .reviews{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+    margin-bottom: 2rem;
+} 
+.site-footer{
+    padding: 15px;
+}
+.site-footer .container .review-box .footer-about{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.site-footer .container .review-box .footer-links{
+    flex: 0 0 100%;
+    max-width: 100%;
+margin-left: auto;
+}
+.site-footer .container .review-box .footer-links .quick-links{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.site-footer .container .review-box .footer-links .newsletter{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+}
+
+
+@media(max-width:576px)
+{
+
+    .site-wrap .container{
+    max-width: 540px;
+    }
+.nav-bar .container .main{
+    padding: 1rem 0;
+}
+
+.site-section .container .review-box .reviews{
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 10px;
+    margin-bottom: 2rem;
+} 
+
+.site-section .container .about-me-section .mypic{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.site-section .container .about-me-section .mypic img{
+    height: 100%;
+    width: 100%;
+}
+.site-section .container .about-me-section .myintro{
+    color: rgba(255, 255, 255, .5);
+    max-width: 100%;
+    margin-left: auto;
+    padding: 0 10px;
+}
+.site-section .video-container .video-div {
+    padding: 0 10px;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+}
